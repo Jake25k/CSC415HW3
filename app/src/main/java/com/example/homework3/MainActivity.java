@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     //this method sees if anymore moves are legal to be made in the game
     boolean makeSureSpaceIsAvailable(){
-        for (int i = 0; i < 8; i++){
+        for (int i = 0; i < 9; i++){
             if (mGameButtons[i].getText().toString() == "X" || (mGameButtons[i].getText().toString() == "O")){
                 //do nothing
             }
